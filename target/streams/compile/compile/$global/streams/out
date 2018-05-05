@@ -1,0 +1,11 @@
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Seamfix-Pc\IdeaProjects\scalatweet\src\main\scala\tweetclient\TwitterClient.scala:5:12: object TweetSwingPanel is not a member of package gui[0m
+[0m[[0m[31merror[0m] [0m[0mNote: class TweetSwingPanel exists, but it has no companion object.[0m
+[0m[[0m[31merror[0m] [0m[0mimport gui.TweetSwingPanel._[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Seamfix-Pc\IdeaProjects\scalatweet\src\main\scala\tweetclient\TwitterClient.scala:12:5: not found: value showframe[0m
+[0m[[0m[31merror[0m] [0m[0m    showframe[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Seamfix-Pc\IdeaProjects\scalatweet\src\main\scala\tweetclient\TwitterClient.scala:13:5: not found: value top[0m
+[0m[[0m[31merror[0m] [0m[0m    top[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0mthree errors found[0m
