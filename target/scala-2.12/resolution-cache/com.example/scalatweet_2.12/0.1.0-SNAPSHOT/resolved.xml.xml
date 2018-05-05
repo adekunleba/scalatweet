@@ -4,7 +4,7 @@
 		module="scalatweet_2.12"
 		revision="0.1.0-SNAPSHOT"
 		status="integration"
-		publication="20180504232701"
+		publication="20180505065240"
 	>
 		<description>
 		scalatweet
@@ -34,6 +34,6 @@
 		<dependency org="org.scala-lang" name="scala-library" rev="2.12.6" conf="scala-tool->default,optional(default);compile->default(compile)"/>
 		<dependency org="org.scalatest" name="scalatest_2.12" rev="3.0.5" conf="test->default(compile)"/>
 		<dependency org="org.twitter4j" name="twitter4j-core" rev="4.0.6" conf="compile->default(compile)"/>
-		<dependency org="org.scala-lang" name="scala-swing" rev="2.10.7" conf="compile->default(compile)"/>
+		<dependency org="org.scala-lang.modules" name="scala-swing_2.12" rev="2.0.3" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>

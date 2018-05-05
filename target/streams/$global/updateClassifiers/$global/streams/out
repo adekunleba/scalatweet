@@ -24,22 +24,6 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.6 [compile->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.6 [compile->compile(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.6 [compile->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [compile->default][0m
-[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-swing;2.10.7 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master]}[0m
-[0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: org.scala-lang#scala-swing;2.10.7[0m
-[0m[[0m[0mdebug[0m] [0m[0m	found org.scala-lang#scala-swing;2.10.7 in sbt-chain[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[2.10.7] org.scala-lang#scala-swing;2.10.7[0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [compile->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [compile->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [compile->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [compile->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [compile->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [compile->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [compile->default(compile)][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [compile->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [compile->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [compile->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [compile->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;4.0.6 [compile->default][0m
 [0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.twitter4j#twitter4j-core;4.0.6 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master]}[0m
 [0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: org.twitter4j#twitter4j-core;4.0.6[0m
@@ -55,6 +39,21 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;4.0.6 [compile->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;4.0.6 [compile->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;4.0.6 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [compile->default][0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-swing_2.12;2.0.3 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master]}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: org.scala-lang.modules#scala-swing_2.12;2.0.3[0m
+[0m[[0m[0mdebug[0m] [0m[0m	found org.scala-lang.modules#scala-swing_2.12;2.0.3 in sbt-chain[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [compile->master][0m
 [0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'runtime'[0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for com.example#scalatweet$sources;0.1.0-SNAPSHOT [runtime][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for com.example#scalatweet$sources;0.1.0-SNAPSHOT [compile][0m
@@ -74,18 +73,6 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.6 [compile->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.6 [compile->compile(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.6 [compile->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [compile->default][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [compile->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [compile->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [compile->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [compile->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [compile->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [compile->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [compile->default(compile)][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [compile->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [compile->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [compile->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [compile->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;4.0.6 [compile->default][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;4.0.6 [compile->runtime][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;4.0.6 [compile->compile][0m
@@ -98,6 +85,18 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;4.0.6 [compile->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;4.0.6 [compile->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;4.0.6 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [compile->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [compile->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.6 [runtime->default][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.6 [runtime->runtime][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.6 [runtime->compile][0m
@@ -114,18 +113,6 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.6 [runtime->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.6 [runtime->compile(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.6 [runtime->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [runtime->default][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [runtime->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [runtime->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [runtime->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [runtime->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [runtime->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [runtime->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [runtime->default(compile)][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [runtime->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [runtime->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [runtime->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [runtime->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;4.0.6 [runtime->default][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;4.0.6 [runtime->runtime][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;4.0.6 [runtime->compile][0m
@@ -138,6 +125,18 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;4.0.6 [runtime->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;4.0.6 [runtime->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;4.0.6 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [runtime->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [runtime->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [runtime->master][0m
 [0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'test'[0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for com.example#scalatweet$sources;0.1.0-SNAPSHOT [test][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for com.example#scalatweet$sources;0.1.0-SNAPSHOT [runtime][0m
@@ -159,18 +158,6 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.6 [compile->compile(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.6 [compile->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.6 [compile->master(*)][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [compile->default][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [compile->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [compile->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [compile->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [compile->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [compile->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [compile->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [compile->default(compile)][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [compile->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [compile->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [compile->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [compile->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;4.0.6 [compile->default][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;4.0.6 [compile->runtime][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;4.0.6 [compile->compile][0m
@@ -183,6 +170,18 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;4.0.6 [compile->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;4.0.6 [compile->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;4.0.6 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [compile->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [compile->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.6 [runtime->default][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.6 [runtime->runtime][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.6 [runtime->compile][0m
@@ -199,18 +198,6 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.6 [runtime->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.6 [runtime->compile(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.6 [runtime->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [runtime->default][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [runtime->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [runtime->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [runtime->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [runtime->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [runtime->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [runtime->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [runtime->default(compile)][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [runtime->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [runtime->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [runtime->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [runtime->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;4.0.6 [runtime->default][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;4.0.6 [runtime->runtime][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;4.0.6 [runtime->compile][0m
@@ -223,6 +210,18 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;4.0.6 [runtime->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;4.0.6 [runtime->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;4.0.6 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [runtime->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [runtime->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [runtime->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scalatest#scalatest_2.12;3.0.5 [test->default][0m
 [0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.scalatest#scalatest_2.12;3.0.5 {test=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master]}[0m
 [0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: org.scalatest#scalatest_2.12;3.0.5[0m
@@ -277,18 +276,6 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test->compile(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [test->default][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [test->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [test->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [test->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [test->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [test->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [test->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [test->default(compile)][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [test->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [test->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [test->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [test->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;4.0.6 [test->default][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;4.0.6 [test->runtime][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;4.0.6 [test->compile][0m
@@ -301,6 +288,18 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;4.0.6 [test->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;4.0.6 [test->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;4.0.6 [test->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [test->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [test->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [test->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [test->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [test->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [test->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [test->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [test->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.6 [test->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.12.6 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]}[0m
 [0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.12.6[0m
@@ -336,18 +335,6 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.6 [compile->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.6 [compile->compile(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.6 [compile->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [compile->default][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [compile->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [compile->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [compile->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [compile->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [compile->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [compile->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [compile->default(compile)][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [compile->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [compile->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [compile->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [compile->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;4.0.6 [compile->default][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;4.0.6 [compile->runtime][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;4.0.6 [compile->compile][0m
@@ -360,6 +347,18 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;4.0.6 [compile->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;4.0.6 [compile->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;4.0.6 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [compile->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [compile->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for com.example#scalatweet$sources;0.1.0-SNAPSHOT [optional][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for com.example#scalatweet$sources;0.1.0-SNAPSHOT [provided][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.6 [compile-internal->default][0m
@@ -378,18 +377,6 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.6 [compile-internal->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.6 [compile-internal->compile(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.6 [compile-internal->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [compile-internal->default][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [compile-internal->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [compile-internal->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [compile-internal->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [compile-internal->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [compile-internal->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [compile-internal->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [compile-internal->default(compile)][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [compile-internal->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [compile-internal->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [compile-internal->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [compile-internal->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;4.0.6 [compile-internal->default][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;4.0.6 [compile-internal->runtime][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;4.0.6 [compile-internal->compile][0m
@@ -402,6 +389,18 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;4.0.6 [compile-internal->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;4.0.6 [compile-internal->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;4.0.6 [compile-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [compile-internal->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [compile-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [compile-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [compile-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [compile-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [compile-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [compile-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [compile-internal->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [compile-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [compile-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [compile-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [compile-internal->master][0m
 [0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'runtime-internal'[0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for com.example#scalatweet$sources;0.1.0-SNAPSHOT [runtime-internal][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for com.example#scalatweet$sources;0.1.0-SNAPSHOT [runtime][0m
@@ -422,18 +421,6 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.6 [compile->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.6 [compile->compile(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.6 [compile->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [compile->default][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [compile->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [compile->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [compile->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [compile->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [compile->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [compile->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [compile->default(compile)][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [compile->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [compile->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [compile->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [compile->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;4.0.6 [compile->default][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;4.0.6 [compile->runtime][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;4.0.6 [compile->compile][0m
@@ -446,6 +433,18 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;4.0.6 [compile->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;4.0.6 [compile->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;4.0.6 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [compile->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [compile->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.6 [runtime->default][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.6 [runtime->runtime][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.6 [runtime->compile][0m
@@ -462,18 +461,6 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.6 [runtime->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.6 [runtime->compile(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.6 [runtime->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [runtime->default][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [runtime->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [runtime->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [runtime->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [runtime->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [runtime->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [runtime->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [runtime->default(compile)][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [runtime->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [runtime->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [runtime->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [runtime->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;4.0.6 [runtime->default][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;4.0.6 [runtime->runtime][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;4.0.6 [runtime->compile][0m
@@ -486,6 +473,18 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;4.0.6 [runtime->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;4.0.6 [runtime->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;4.0.6 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [runtime->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [runtime->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [runtime->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for com.example#scalatweet$sources;0.1.0-SNAPSHOT [optional][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.6 [runtime-internal->default][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.6 [runtime-internal->runtime][0m
@@ -503,18 +502,6 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.6 [runtime-internal->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.6 [runtime-internal->compile(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.6 [runtime-internal->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [runtime-internal->default][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [runtime-internal->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [runtime-internal->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [runtime-internal->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [runtime-internal->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [runtime-internal->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [runtime-internal->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [runtime-internal->default(compile)][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [runtime-internal->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [runtime-internal->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [runtime-internal->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [runtime-internal->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;4.0.6 [runtime-internal->default][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;4.0.6 [runtime-internal->runtime][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;4.0.6 [runtime-internal->compile][0m
@@ -527,6 +514,18 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;4.0.6 [runtime-internal->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;4.0.6 [runtime-internal->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;4.0.6 [runtime-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [runtime-internal->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [runtime-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [runtime-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [runtime-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [runtime-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [runtime-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [runtime-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [runtime-internal->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [runtime-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [runtime-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [runtime-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [runtime-internal->master][0m
 [0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'test-internal'[0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for com.example#scalatweet$sources;0.1.0-SNAPSHOT [test-internal][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for com.example#scalatweet$sources;0.1.0-SNAPSHOT [test][0m
@@ -548,18 +547,6 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.6 [compile->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.6 [compile->compile(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.6 [compile->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [compile->default][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [compile->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [compile->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [compile->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [compile->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [compile->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [compile->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [compile->default(compile)][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [compile->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [compile->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [compile->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [compile->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;4.0.6 [compile->default][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;4.0.6 [compile->runtime][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;4.0.6 [compile->compile][0m
@@ -572,6 +559,18 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;4.0.6 [compile->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;4.0.6 [compile->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;4.0.6 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [compile->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [compile->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.6 [runtime->default][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.6 [runtime->runtime][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.6 [runtime->compile][0m
@@ -588,18 +587,6 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.6 [runtime->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.6 [runtime->compile(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.6 [runtime->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [runtime->default][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [runtime->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [runtime->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [runtime->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [runtime->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [runtime->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [runtime->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [runtime->default(compile)][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [runtime->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [runtime->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [runtime->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [runtime->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;4.0.6 [runtime->default][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;4.0.6 [runtime->runtime][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;4.0.6 [runtime->compile][0m
@@ -612,6 +599,18 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;4.0.6 [runtime->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;4.0.6 [runtime->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;4.0.6 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [runtime->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [runtime->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [runtime->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scalatest#scalatest_2.12;3.0.5 [test->default][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scalatest#scalatest_2.12;3.0.5 [test->runtime][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scalatest#scalatest_2.12;3.0.5 [test->compile][0m
@@ -657,18 +656,6 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test->compile(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [test->default][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [test->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [test->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [test->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [test->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [test->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [test->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [test->default(compile)][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [test->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [test->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [test->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [test->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;4.0.6 [test->default][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;4.0.6 [test->runtime][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;4.0.6 [test->compile][0m
@@ -681,6 +668,18 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;4.0.6 [test->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;4.0.6 [test->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;4.0.6 [test->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [test->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [test->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [test->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [test->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [test->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [test->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [test->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [test->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.6 [test->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.6 [test->runtime(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.6 [test->compile][0m
@@ -736,18 +735,6 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test-internal->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test-internal->compile(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test-internal->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [test-internal->default][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [test-internal->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [test-internal->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [test-internal->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [test-internal->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [test-internal->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [test-internal->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [test-internal->default(compile)][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [test-internal->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [test-internal->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [test-internal->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-swing;2.10.7 [test-internal->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;4.0.6 [test-internal->default][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;4.0.6 [test-internal->runtime][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;4.0.6 [test-internal->compile][0m
@@ -760,6 +747,18 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;4.0.6 [test-internal->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;4.0.6 [test-internal->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;4.0.6 [test-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [test-internal->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [test-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [test-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [test-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [test-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [test-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [test-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [test-internal->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [test-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [test-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [test-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-swing_2.12;2.0.3 [test-internal->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.6 [test-internal->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.6 [test-internal->runtime(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.6 [test-internal->compile][0m
@@ -827,18 +826,20 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#scalatweet$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.6 [scala-tool->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m	resolved ivy file produced in cache[0m
 [0m[[0m[0mdebug[0m] [0m[0m:: downloading artifacts ::[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.6!scala-reflect.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried C:\Users\Seamfix-Pc\.ivy2\local\org.scala-lang.modules\scala-swing_2.12\2.0.3\srcs\scala-swing_2.12-sources.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.6!scala-compiler.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-swing_2.12/2.0.3/scala-swing_2.12-2.0.3-sources.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang#scala-library;2.12.6!scala-library.jar(src)[0m
 [0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to C:\Users\Seamfix-Pc\.ivy2[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/Seamfix-Pc/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to C:\Users\Seamfix-Pc\.ivy2\cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/Seamfix-Pc/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scalactic#scalactic_2.12;3.0.5!scalactic_2.12.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to C:\Users\Seamfix-Pc\.ivy2[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/Seamfix-Pc/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to C:\Users\Seamfix-Pc\.ivy2\cache[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/Seamfix-Pc/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/Seamfix-Pc/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/Seamfix-Pc/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/Seamfix-Pc/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/Seamfix-Pc/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (47ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (75ms)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	default cache: C:\Users\Seamfix-Pc\.ivy2\cache[0m
 [0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
@@ -847,52 +848,25 @@
 [0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
 [0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
 [0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
-[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to C:\Users\Seamfix-Pc\.ivy2\cache[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/Seamfix-Pc/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/Seamfix-Pc/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/Seamfix-Pc/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/Seamfix-Pc/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (34ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default cache: C:\Users\Seamfix-Pc\.ivy2\cache[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
-[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
-[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
-[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
-[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.twitter4j#twitter4j-core;4.0.6!twitter4j-core.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried C:\Users\Seamfix-Pc\.ivy2\local\org.scala-lang\scala-swing\2.10.7\srcs\scala-swing-sources.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/scala-lang/scala-swing/2.10.7/scala-swing-2.10.7-sources.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scalatest#scalatest_2.12;3.0.5!scalatest_2.12.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.6!scala-compiler.jar(src)[0m
 [0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to C:\Users\Seamfix-Pc\.ivy2[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/Seamfix-Pc/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to C:\Users\Seamfix-Pc\.ivy2\cache[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/Seamfix-Pc/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/Seamfix-Pc/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/Seamfix-Pc/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/Seamfix-Pc/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (26ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default cache: C:\Users\Seamfix-Pc\.ivy2\cache[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
-[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
-[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
-[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
-[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] jline#jline;2.14.6!jline.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.6!scala-reflect.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/Seamfix-Pc/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to C:\Users\Seamfix-Pc\.ivy2\cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/Seamfix-Pc/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(src)[0m
 [0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to C:\Users\Seamfix-Pc\.ivy2[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/Seamfix-Pc/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.twitter4j#twitter4j-core;4.0.6!twitter4j-core.jar(src)[0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/Seamfix-Pc/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to C:\Users\Seamfix-Pc\.ivy2\cache[0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/Seamfix-Pc/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/Seamfix-Pc/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/Seamfix-Pc/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/Seamfix-Pc/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/Seamfix-Pc/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (10ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/Seamfix-Pc/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (12ms)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	default cache: C:\Users\Seamfix-Pc\.ivy2\cache[0m
 [0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
@@ -901,12 +875,21 @@
 [0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
 [0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
 [0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
-[0m[[0m[0minfo[0m] [0m[0mdownloading https://repo1.maven.org/maven2/org/scala-lang/scala-swing/2.10.7/scala-swing-2.10.7-sources.jar ...[0m
-[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-swing/2.10.7/scala-swing-2.10.7-sources.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-swing/2.10.7/scala-swing-2.10.7-sources.jar.sha1[0m
-[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-swing/2.10.7/scala-swing-2.10.7-sources.jar[0m
-[0m[[0m[0minfo[0m] [0m[0m	[SUCCESSFUL ] org.scala-lang#scala-swing;2.10.7!scala-swing.jar(src) (7396ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0m:: resolution report :: resolve 119ms :: artifacts dl 7513ms[0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (8ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: C:\Users\Seamfix-Pc\.ivy2\cache[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0minfo[0m] [0m[0mdownloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-swing_2.12/2.0.3/scala-swing_2.12-2.0.3-sources.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-swing_2.12/2.0.3/scala-swing_2.12-2.0.3-sources.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-swing_2.12/2.0.3/scala-swing_2.12-2.0.3-sources.jar.sha1[0m
+[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/org/scala-lang/modules/scala-swing_2.12/2.0.3/scala-swing_2.12-2.0.3-sources.jar[0m
+[0m[[0m[0minfo[0m] [0m[0m	[SUCCESSFUL ] org.scala-lang.modules#scala-swing_2.12;2.0.3!scala-swing_2.12.jar(src) (1758ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: resolution report :: resolve 66ms :: artifacts dl 1864ms[0m
 [0m[[0m[0mdebug[0m] [0m[0m	report for com.example#scalatweet$sources;0.1.0-SNAPSHOT compile produced in C:\Users\Seamfix-Pc\IdeaProjects\scalatweet\target\scala-2.12\resolution-cache\reports\com.example-scalatweet$sources-compile.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0m	report for com.example#scalatweet$sources;0.1.0-SNAPSHOT runtime produced in C:\Users\Seamfix-Pc\IdeaProjects\scalatweet\target\scala-2.12\resolution-cache\reports\com.example-scalatweet$sources-runtime.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0m	report for com.example#scalatweet$sources;0.1.0-SNAPSHOT test produced in C:\Users\Seamfix-Pc\IdeaProjects\scalatweet\target\scala-2.12\resolution-cache\reports\com.example-scalatweet$sources-test.xml[0m
@@ -918,4 +901,4 @@
 [0m[[0m[0mdebug[0m] [0m[0m	report for com.example#scalatweet$sources;0.1.0-SNAPSHOT plugin produced in C:\Users\Seamfix-Pc\IdeaProjects\scalatweet\target\scala-2.12\resolution-cache\reports\com.example-scalatweet$sources-plugin.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0m	report for com.example#scalatweet$sources;0.1.0-SNAPSHOT pom produced in C:\Users\Seamfix-Pc\IdeaProjects\scalatweet\target\scala-2.12\resolution-cache\reports\com.example-scalatweet$sources-pom.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0m	report for com.example#scalatweet$sources;0.1.0-SNAPSHOT scala-tool produced in C:\Users\Seamfix-Pc\IdeaProjects\scalatweet\target\scala-2.12\resolution-cache\reports\com.example-scalatweet$sources-scala-tool.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	resolve done (119ms resolve - 7513ms download)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	resolve done (66ms resolve - 1864ms download)[0m

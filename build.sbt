@@ -11,6 +11,6 @@ lazy val root = (project in file(".")).
     libraryDependencies ++= Seq(
       scalaTest % Test,
       "org.twitter4j" % "twitter4j-core" % "4.0.6",
-      "org.scala-lang" % "scala-swing" % "2.11.0-M7"
+      "org.scala-lang.modules" %% "scala-swing" % "2.0.3"
      )
   )

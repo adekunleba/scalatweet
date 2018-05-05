@@ -6,3 +6,7 @@ run
 run
 ;reload; set _root_.org.jetbrains.sbt.StructureKeys.sbtStructureOptions in Global := "download resolveClassifiers" ;*/*:dumpStructureTo C:/Users/Seamfix-Pc/AppData/Local/Temp/sbt-structure.xml; session clear-all
 run
+;reload; set _root_.org.jetbrains.sbt.StructureKeys.sbtStructureOptions in Global := "download resolveClassifiers" ;*/*:dumpStructureTo C:/Users/Seamfix-Pc/AppData/Local/Temp/sbt-structure.xml; session clear-all
+run
+;reload; set _root_.org.jetbrains.sbt.StructureKeys.sbtStructureOptions in Global := "download resolveClassifiers" ;*/*:dumpStructureTo C:/Users/Seamfix-Pc/AppData/Local/Temp/sbt-structure.xml; session clear-all
+run
