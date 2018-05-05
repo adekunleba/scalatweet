@@ -37,8 +37,12 @@ object TwiiterClientHelper {
   val it = statuses.iterator
 
   def searchTweets(query: Seq[String]) = {
+    //Ensure that listener from the GUI presents the tweets as a Sequence of String
     for (elem <- query) {
       val querystatus = twitter.search(new Query(elem)).getTweets
+
+      //Decision to either send the whole tweets to a mongodb or do some cleaning
+      // Or send some cleaned data to mongo while some goes to Mariadb
       querystatus.forEach(querystat => println(querystat.getText))
     }
 
