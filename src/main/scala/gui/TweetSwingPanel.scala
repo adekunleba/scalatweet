@@ -11,7 +11,6 @@ import scala.swing.{SimpleSwingApplication, event}
 import scala.swing.event._
 
 
-//TODO: Extend this object to be usable in the main method
 object TweetSwingPanel{
 
   def showframe = {

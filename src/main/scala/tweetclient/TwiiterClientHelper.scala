@@ -3,8 +3,7 @@ package tweetclient
 import java.io.FileInputStream
 import java.util.Properties
 
-import twitter4j.TwitterFactory
-import twitter4j.Twitter
+import twitter4j.{Query, Twitter, TwitterFactory}
 import twitter4j.conf.ConfigurationBuilder
 
 
@@ -36,5 +35,15 @@ object TwiiterClientHelper {
   val statuses = twitter.getFavorites
   println("Showing friends timeline.")
   val it = statuses.iterator
+
+  def searchTweets(query: Seq[String]) = {
+    for (elem <- query) {
+      val querystatus = twitter.search(new Query(elem)).getTweets
+      querystatus.forEach(querystat => println(querystat.getText))
+    }
+
+    //Short hand version of the above
+    //query.foreach(q => twitter.search(new Query(q)).getTweets)
+  }
 
 }
