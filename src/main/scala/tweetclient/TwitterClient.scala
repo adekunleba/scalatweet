@@ -1,7 +1,7 @@
 package tweetclient
 
 import example.Hello
-import TwiiterClientHelper._
+import TwitterClientHelper._
 import gui.TweetScalaSwingPanel
 import gui.TweetSwingPanel._
 

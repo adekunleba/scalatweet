@@ -7,7 +7,7 @@ import twitter4j.{Query, Twitter, TwitterFactory}
 import twitter4j.conf.ConfigurationBuilder
 
 
-object TwiiterClientHelper {
+object TwitterClientHelper {
 
   /**
     *
@@ -32,9 +32,9 @@ object TwiiterClientHelper {
   val tf = new TwitterFactory()
   val twitter = tf.getInstance
 
-  val statuses = twitter.getFavorites
-  println("Showing friends timeline.")
-  val it = statuses.iterator
+//  val statuses = twitter.getFavorites
+//  println("Showing friends timeline.")
+//  val it = statuses.iterator
 
   def searchTweets(query: Seq[String]) = {
     //Ensure that listener from the GUI presents the tweets as a Sequence of String

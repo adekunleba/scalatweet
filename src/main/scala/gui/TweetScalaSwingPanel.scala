@@ -1,5 +1,7 @@
 package gui
 
+import tweetclient.TwitterClientHelper
+
 import scala.swing.{Button, Dimension, FlowPanel, GridPanel, Label, MainFrame, SimpleSwingApplication, Swing, TextField}
 import scala.swing.event._
 
@@ -27,7 +29,10 @@ object TweetScalaSwingPanel extends SimpleSwingApplication{
     //Implements Add Button to be added to ui.contents
     text = "Submit!"
     reactions += {
-      case ButtonClicked(_) => text = "Submitted"
+      case ButtonClicked(_) =>
+        val hashText = Seq(hashTag.text)  //text = "Submitted" //Saying case ButtonClicked then text = "submitted"
+        TwitterClientHelper.searchTweets(hashText)
+      //TODO: Case BUttonClicked--Instead Extract Text and send to query
     }
   }
   ui.contents += addButton
