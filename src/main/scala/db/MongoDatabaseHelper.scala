@@ -2,6 +2,8 @@ package db
 
 import com.typesafe.config._
 
+
+//TODO: Write Extracted Data to DB
 /**This can be modified to make use of a reference conf file, check typesafe config
   * website under complex app examples, meanwhile we can still work with the config in
   * resource for now

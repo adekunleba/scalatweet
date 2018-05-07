@@ -31,7 +31,7 @@ object TweetScalaSwingPanel extends SimpleSwingApplication{
       case ButtonClicked(_) =>
         val hashText = Seq(hashTag.text)  //text = "Submitted" //Saying case ButtonClicked then text = "submitted"
         TwitterClientHelper.searchTweets(hashText)
-      //TODO: Case BUttonClicked--Instead Extract Text and send to query
+      //TODO: Add functionality to do a comma seperated entry in gui column
     }
   }
   ui.contents += addButton
