@@ -9,19 +9,18 @@ import scala.swing.event._
 object TweetScalaSwingPanel extends SimpleSwingApplication{
 
   def newField = new TextField {
-    text = "0"
-    columns = 5
+    text = "Add Tweet"
+    columns = 10
   }
 
   val hashTag = newField
-  val word = newField
+  //val word = newField
 
   //(hashTag, word)
   //        reactions += { // Here is what happens when any of the edit is done
   //            case EditDone()
   //        }
-  lazy val ui = new FlowPanel(new Label(" Hash Tag = "),hashTag,
-    new Label(" word = "), word){
+  lazy val ui = new FlowPanel(new Label(" Hash Tag = "),hashTag){ //new Label(" word = "), word){ -- Ensure to clean this up when you finally remove word textfield
     border = Swing.EmptyBorder(15, 10, 10, 10)
   }
 
