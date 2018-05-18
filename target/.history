@@ -15,3 +15,25 @@ console
 configmongo
 console
 run
+console
+import db.MongoDatabaseHelper._
+:q
+console
+:console
+console
+import db.MongoDatabaseHelper._
+console
+run
+console
+run
+console
+run
+:console
+console
+reload
+console
+run
+console
+cond
+console
+run
