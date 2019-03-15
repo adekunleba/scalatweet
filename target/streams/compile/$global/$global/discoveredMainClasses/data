@@ -1,1 +1,1 @@
-["example.Hello","tweetclient.TwitterClient"]
+["example.Hello","gui.TweetScalaSwingPanel","tweetclient.TwitterClient"]

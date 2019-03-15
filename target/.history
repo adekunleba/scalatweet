@@ -6,3 +6,34 @@ run
 run
 ;reload; set _root_.org.jetbrains.sbt.StructureKeys.sbtStructureOptions in Global := "download resolveClassifiers" ;*/*:dumpStructureTo C:/Users/Seamfix-Pc/AppData/Local/Temp/sbt-structure.xml; session clear-all
 run
+;reload; set _root_.org.jetbrains.sbt.StructureKeys.sbtStructureOptions in Global := "download resolveClassifiers" ;*/*:dumpStructureTo C:/Users/Seamfix-Pc/AppData/Local/Temp/sbt-structure.xml; session clear-all
+run
+;reload; set _root_.org.jetbrains.sbt.StructureKeys.sbtStructureOptions in Global := "download resolveClassifiers" ;*/*:dumpStructureTo C:/Users/Seamfix-Pc/AppData/Local/Temp/sbt-structure.xml; session clear-all
+run
+;reload; set _root_.org.jetbrains.sbt.StructureKeys.sbtStructureOptions in Global := "download resolveClassifiers" ;*/*:dumpStructureTo C:/Users/Seamfix-Pc/AppData/Local/Temp/sbt-structure.xml; session clear-all
+console
+configmongo
+console
+run
+console
+import db.MongoDatabaseHelper._
+:q
+console
+:console
+console
+import db.MongoDatabaseHelper._
+console
+run
+console
+run
+console
+run
+:console
+console
+reload
+console
+run
+console
+cond
+console
+run
