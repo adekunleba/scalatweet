@@ -11,19 +11,20 @@ object SimpleCountApp extends App {
     .appName("simple-count-app")
     .getOrCreate()
 
-  val dataSet: Dataset[String] = spark.read.textFile("textfile.csv")
+  val dataSet: Dataset[String] = spark.read.textFile("/Users/adekunleba/MyProjects/lagosScala/sparkproject/src/main/resources/manytags.csv")
   val filteredDataSet: Dataset[String] = dataSet.filter(x => x.contains("a"))
-  val splitDataSet: Dataset[String] = filteredDataSet.flatMap(_.split(" "))
+//  val splitDataSet: Dataset[String] = filteredDataSet.flatMap(_.split(" "))
 
   val df: DataFrame = dataSet.toDF() //Converts to DataFrame
   val colList: Array[String] = df.columns
-  val selectData: DataFrame = df.select("col1", "col2")
-                                .withColumnRenamed("someCol1", "someCol2")
+//  println(colList.headOption)
+//  val selectData: DataFrame = df.select("col1", "col2")
+//                                .withColumnRenamed("someCol1", "someCol2")
 
 
 
   val sc: SparkContext = spark.sparkContext
-  val rdd = sc.textFile("textfile.csv")
+  val rdd = sc.textFile("/Users/adekunleba/MyProjects/lagosScala/sparkproject/src/main/resources/manytags.csv")
 
 
 //  val data: Array[Int] = Array(1, 2, 3, 4, 5, 6, 6, 7, 7)
